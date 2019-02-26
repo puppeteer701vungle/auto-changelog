@@ -12,10 +12,10 @@ const DEFAULT_OPTIONS = {
   output: 'CHANGELOG.md',
   template: 'compact',
   remote: 'origin',
-  backfillLimit: 3,
   tagPrefix: '',
   unreleased: true,
-  commitLimit: false
+  commitLimit: 20,
+  backfillLimit: 20
 }
 
 const PACKAGE_FILE = 'package.json'
