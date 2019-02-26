@@ -5,6 +5,7 @@
   "bin": {
     "auto-changelog": "./lib/index.js"
   },
+  "main": "./lib/index.js",
   "scripts": {
     "lint": "standard --verbose | snazzy",
     "lint-markdown": "markdownlint README.md test/data/*.md",
