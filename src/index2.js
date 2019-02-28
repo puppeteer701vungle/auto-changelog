@@ -3,6 +3,6 @@
 import '@babel/polyfill'
 import run from './run'
 
-export async function _run () {
+export async function generate () {
   return run(process.argv);
 }
