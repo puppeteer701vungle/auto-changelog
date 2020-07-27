@@ -4,5 +4,6 @@ import '@babel/polyfill'
 import run from './run'
 
 export async function generate() {
-  return run([]);
+  console.log(process.argv)
+  return run([process.argv[0], process.argv[1]]);
 }
