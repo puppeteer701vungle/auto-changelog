@@ -1,3 +1,6 @@
+# Fork of auto-changelog #
+https://github.com/CookPete/auto-changelog
+
 # auto-changelog
 
 Command line tool for generating a changelog from git tags and commit history
